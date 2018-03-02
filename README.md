@@ -18,9 +18,9 @@ To run your own instance of ipfsProxyHTTP (updated by Git Pull), you only only r
 ## Usage 
 
 ```
-http://ipns.co/HASH
-http://ipns.co/ipfs/HASH
-http://ipns.co/ipns/HASH
+http://ipns.co/<hash>
+http://ipns.co/ipfs/<hash>
+http://ipns.co/ipns/<hash>
 ```
 Example:
 ```
