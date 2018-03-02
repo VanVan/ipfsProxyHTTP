@@ -3,7 +3,7 @@
   "type": "library",
   "description": "ipns.co | InterPlanetary File System HTTP Proxy",
   "keywords": ["ipfs", "ipns"],
-  "homepage": "http://ipns.co",
+  "homepage": "https://github.com/VanVan/ipfsProxyHTTP",
   "license": "MIT",
   "authors": [
     {
