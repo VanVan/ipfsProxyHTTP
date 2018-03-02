@@ -11,20 +11,19 @@ IPNS.co use DNSSEC, DNS Anycast, low latency DNS and IP resolved to different se
 
 Each IPFS gateway can break if a lot of files is downloaded simultaneous, this can help to avoid this risk.
 
-You can add your public ipfs gateway by making a PR to add it to gateway.txt
 
 To run your own instance of ipfsProxyHTTP (updated by Git Pull), you only only require PHP>=5.6 and a Web server.
 
 
-Usage 
+## Usage 
 
 ```
 http://ipns.co/HASH
 http://ipns.co/ipfs/HASH
 http://ipns.co/ipns/HASH
- 
+```
 Example:
-
+```
 http://ipns.co/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
 http://ipns.co/ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
 
@@ -39,4 +38,13 @@ Or use it for your web file
  
  
   
-Alternative URL: getipfs.com
+> Alternative URL: getipfs.com
+
+## Contributing
+
+You can add your public ipfs gateway by making a PR to add it to gateway.txt
+
+
+## Copyright and license
+
+Code released under the [MIT License](https://github.com/VanVan/ipfsProxyHTTP/blob/master/LICENSE).
