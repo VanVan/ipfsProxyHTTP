@@ -1,0 +1,6 @@
+//ipfs.io/ipfs/@
+https://gateway.ipfs.io/ipfs/@
+https://ipfs.infura.io/ipfs/@
+https://siderus.io/ipfs/@
+https://ipfs.jes.xxx/ipfs/@
+https://www.eternum.io/ipfs/@
