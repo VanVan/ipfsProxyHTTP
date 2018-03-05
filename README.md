@@ -18,23 +18,23 @@ To run your own instance of ipfsProxyHTTP (updated by Git Pull), you only only r
 ## Usage 
 
 ```
-http://ipns.co/<hash>
+https://ipns.co/<hash>
 http://ipns.co/ipfs/<hash>
 http://ipns.co/ipns/<hash>
 ```
 Example:
 ```
-http://ipns.co/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
-http://ipns.co/ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
+https://ipns.co/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
+https://ipns.co/ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme
 
 ```
 
 Or use it for your web file
 
 ```
-<img src="http://ipns.co/QmZiSAYkU7gZtqYeZWL21yuwgFtRnJu1JjDzR6Qd2qdDBr/static/img/go-ipfs.png"  />
+<img src="https://ipns.co/QmZiSAYkU7gZtqYeZWL21yuwgFtRnJu1JjDzR6Qd2qdDBr/static/img/go-ipfs.png"  />
 ```
-<img src="http://ipns.co/QmZiSAYkU7gZtqYeZWL21yuwgFtRnJu1JjDzR6Qd2qdDBr/static/img/go-ipfs.png"  />
+<img src="https://ipns.co/QmZiSAYkU7gZtqYeZWL21yuwgFtRnJu1JjDzR6Qd2qdDBr/static/img/go-ipfs.png"  />
  
  
   
