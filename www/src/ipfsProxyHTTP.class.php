@@ -120,7 +120,7 @@ class ipfsProxyHTTP {
      * @param string $ipfs_uri
      */
     protected function redirect($ipfs_uri) {
-        if (isset($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER'] && ((strpos($_SERVER['HTTP_REFERER'], 'ipns.co') === FALSE) || substr($ipfs_uri, -3) == 'png'))
+        if (((isset($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_ACCEPT'], 'text/html') === FALSE) && ((strpos($_SERVER['HTTP_REFERER'], 'ipns.co') === FALSE) || substr($ipfs_uri, -3) == 'png'))
             return self::redirectHTTP($ipfs_uri);
         else
             return self::redirectHTML($ipfs_uri);
