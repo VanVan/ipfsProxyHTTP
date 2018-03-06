@@ -1,5 +1,5 @@
 {
-  "name": "VanVan/ipfsProxyHTTP",
+  "name": "vanvan/ipfs-proxy-http",
   "type": "library",
   "description": "ipns.co | InterPlanetary File System HTTP Proxy",
   "keywords": ["ipfs", "ipns"],
