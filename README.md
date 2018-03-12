@@ -1,3 +1,10 @@
+[![Website ipns.co](https://img.shields.io/website-up-down-green-red/http/ipns.co.svg?label=ipns.co)](http://ipns.co/)
+[![Website getipfs.com](https://img.shields.io/website-up-down-green-red/http/getipfs.com.svg?label=getipfs.com)](http://getipfs.com/)
+![NAC-depend-none](https://img.shields.io/badge/dependency-none-green.svg)
+[![NAC-packagist](https://img.shields.io/packagist/v/vanvan/ipfs-proxy-http.svg)](https://packagist.org/packages/vanvan/ipfs-proxy-http)
+[![GitHub version](https://badge.fury.io/gh/VanVan%2FipfsProxyHTTP.svg)](https://github.com/VanVan/ipfsProxyHTTP)
+[![NAC-license](https://img.shields.io/badge/license-MIT+-blue.svg)](https://github.com/VanVan/ipfsProxyHTTP/blob/master/LICENSE)
+
 IPNS.co | InterPlanetary File System HTTP Proxy
 =======================
 
