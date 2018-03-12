@@ -278,7 +278,7 @@ class ipfsProxyHTTP {
      */
 	protected static function template($template, array $vars = null) {
         if (is_readable(dirname(__FILE__). DIRECTORY_SEPARATOR . $template) && ($file = file_get_contents(dirname(__FILE__) . DIRECTORY_SEPARATOR . $template))) {
-            if ($vars)
+                $vars = array_merge(self::getGlobalVars(), is_array($vars)?$vars:array());
                 foreach ($vars as $key=>$value)
                     $file = str_replace('{$'.$key.'}', $value, $file);
             self::response($file);
@@ -293,6 +293,12 @@ class ipfsProxyHTTP {
      */
 	protected static function response($content) {
 	    print($content);
+    }
+
+    protected static function getGlobalVars() {
+	    return array(
+	        'host'  => $_SERVER['HTTP_HOST'],
+        );
     }
 
     /**
