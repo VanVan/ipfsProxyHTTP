@@ -1,0 +1,17 @@
+# see https://docs.travis-ci.com/user/languages/php for more hints
+language: php
+
+php:
+    - 5.6
+    - 7.0
+    - 7.1
+    - hhvm # on Trusty only
+    - nightly
+
+branches:
+    only:
+        - master
+
+env:
+    global:
+        - COMPOSER_CACHE_DIR=.composer-cache/
