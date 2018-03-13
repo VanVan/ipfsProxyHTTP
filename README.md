@@ -46,7 +46,7 @@ Or use it for your web file
  
  
   
-> Alternative URL: getipfs.com
+> Alternative URL: <a href="http://getipfs.com">getipfs.com</a>, <a href="http://ipns.co">ipns.co</a>
 
 ## Contributing
 
