@@ -1,5 +1,6 @@
 //ipfs.io/ipfs/@
 https://gateway.ipfs.io/ipfs/@
+https://cloudflare-ipfs.com/ipfs/@
 https://ipfs.infura.io/ipfs/@
 https://siderus.io/ipfs/@
 https://ipfs.jes.xxx/ipfs/@
