@@ -15,3 +15,5 @@ https://ipfs.macholibre.org/ipfs/@
 https://ipfs.works/ipfs/@
 https://ipfs.work/ipfs/@
 https://ipfs.macholibre.org/ipfs/@
+https://ipfs.leotindall.com/ipfs/@
+https://gateway.swedneck.xyz/ipfs/@
