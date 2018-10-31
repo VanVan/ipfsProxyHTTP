@@ -2,6 +2,7 @@
 https://gateway.ipfs.io/ipfs/@
 https://cloudflare-ipfs.com/ipfs/@
 https://ipfs.infura.io/ipfs/@
+https://ipfs.ink/ipfs/@
 https://siderus.io/ipfs/@
 https://ipfs.jes.xxx/ipfs/@
 https://ipfs.eternum.io/ipfs/@
