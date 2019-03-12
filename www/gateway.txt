@@ -20,3 +20,4 @@ https://ipfs.macholibre.org/ipfs/@
 https://ipfs.leotindall.com/ipfs/@
 https://gateway.swedneck.xyz/ipfs/@
 https://snap1.d.tube/ipfs/@
+https://jorropo.ovh/ipfs/@
