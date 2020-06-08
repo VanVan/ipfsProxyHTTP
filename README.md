@@ -52,6 +52,22 @@ Or use it for your web file
 > ⏩ Alternative URL: <a href="http://getipfs.com">getipfs.com</a>, <a href="http://ipns.co">ipns.co</a>
 
 
+## 🔧 [Installation](#install)
+
+It is ready to use if you have installed docker.
+
+```
+docker run -p 80:80 -p 443:443 wandrille/ipfs-proxy-http:1.0
+```
+or
+```
+git clone https://github.com/VanVan/ipfsProxyHTTP
+cd ipfsProxyHTTP
+docker-compose up
+```
+
+Otherwise, all you need is a basic web server with at least PHP 5.6.
+
 ## 💡 Features
 
 For everyone hosting this code
