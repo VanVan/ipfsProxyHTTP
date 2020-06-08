@@ -1,0 +1,12 @@
+version: '2'
+services:
+
+  web:
+    image: wandrille/ipfs-proxy-http:1.0
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./www:/var/www
+#      - ./server.key:/etc/ssl/private/server.key
+#      - ./server.crt:/etc/ssl/private/server.crt
