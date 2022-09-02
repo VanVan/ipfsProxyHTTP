@@ -319,6 +319,8 @@ class ipfsProxyHTTP {
      */
     public function setCheckHost($bool) {
 	    $this->check_host = $bool;
+
+	    return $this;
     }
 
     /**
@@ -334,14 +336,20 @@ class ipfsProxyHTTP {
      * @param int $timeout
      */
     public function setTimeOut($timeout) {
-        $this->timeout = $timeout;
+	    $this->timeout = $timeout;
+
+	    return $this;
     }
 
     public function setSSLverifyHost($bool) {
-        $this->ssl_verify_host = $bool;
+	    $this->ssl_verify_host = $bool;
+
+	    return $this;
     }
 
     public function setSSLverifyPeer($bool) {
-        $this->ssl_verify_peer = $bool;
+	    $this->ssl_verify_peer = $bool;
+	    
+	    return $this;
     }
 }
