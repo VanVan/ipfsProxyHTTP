@@ -9,3 +9,4 @@ https://hardbin.com/ipfs/@
 https://ipfs.leiyun.org/ipfs/@
 https://snap1.d.tube/ipfs/@
 https://jorropo.ovh/ipfs/@
+https://coldcdn.com/api/cdn/4wdhj2/@
