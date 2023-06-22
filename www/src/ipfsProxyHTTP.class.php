@@ -112,6 +112,7 @@ class ipfsProxyHTTP {
      * Not found exception
      */
     protected static function notFound() {
+        header("HTTP/1.1 404 Not Found");
         self::template(NOTFOUND_TEMPLATE);
     }
 
