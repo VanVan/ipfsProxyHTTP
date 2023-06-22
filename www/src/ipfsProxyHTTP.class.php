@@ -88,6 +88,9 @@ class ipfsProxyHTTP {
      */
     public function dispatch() {
         if ($this->uri) {
+            if ($this->isBlacklisted($this->uri))
+                return self::notFound();
+
             foreach(IPFS_STRING_PREFIX as $prefix)
                 if (strtolower(substr($this->uri,  0, strlen($prefix))) == $prefix) {
                     $this->ipfs_uri = substr($this->uri, strlen($prefix) + 1);
@@ -352,5 +355,28 @@ class ipfsProxyHTTP {
 	    $this->ssl_verify_peer = $bool;
 	    
 	    return $this;
+    }
+
+    /**
+     * Check if URL is blacklisted
+     *
+     * @param $url URL to check
+     * @return bool
+     */
+    public function isBlacklisted($url) {
+        if (!file_exists(BLACKLIST_LIST_FILE))
+            return false;
+
+        if (!is_readable(BLACKLIST_LIST_FILE))
+            self::error('Blacklist file is not readable');
+
+        $blacklists = file(BLACKLIST_LIST_FILE,  FILE_IGNORE_NEW_LINES );
+
+        foreach ($blacklists as $b)
+            if (stripos($url, $b) !== FALSE)
+                return true;
+
+
+        return false;
     }
 }

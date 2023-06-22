@@ -31,6 +31,7 @@ const INDEX_TEMPLATE = '/index.template.html';
 const REDIRECT_TEMPLATE = '/redirect.template.html';
 const NOTFOUND_TEMPLATE = '/notfound.template.html';
 const PROXY_LIST_FILE = 'gateway.txt';
+const BLACKLIST_LIST_FILE = 'blacklist.txt';
 const CHECK_HOST_TIMEOUT = 3;
 const IPFS_CHECK_HOST_URI = 'QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme';
 const IPFS_CHECK_HOST_VERIFY_STRING = 'Welcome to IPFS';
