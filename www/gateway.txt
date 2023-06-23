@@ -2,10 +2,11 @@
 https://gateway.ipfs.io/ipfs/@
 https://cloudflare-ipfs.com/ipfs/@
 https://ipfs.infura.io/ipfs/@
-https://ipfs.ink/ipfs/@
-https://siderus.io/ipfs/@
+https://w3s.link/ipfs/@
+https://dweb.link/ipfs/@
+https://ipfs.eth.aragon.network/ipfs/@
+https://ipfs-gateway.cloud/ipfs/@
 https://ipfs.eternum.io/ipfs/@
-https://hardbin.com/ipfs/@
-https://ipfs.leiyun.org/ipfs/@
-https://snap1.d.tube/ipfs/@
-https://jorropo.ovh/ipfs/@
+https://nftstorage.link/ipfs/@
+https://ipfs.anonymize.com/ipfs/@
+https://@.dweb.link
