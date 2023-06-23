@@ -1,12 +1,13 @@
 //ipfs.io/ipfs/@
 https://gateway.ipfs.io/ipfs/@
 https://cloudflare-ipfs.com/ipfs/@
-https://ipfs.infura.io/ipfs/@
 https://w3s.link/ipfs/@
 https://dweb.link/ipfs/@
 https://ipfs.eth.aragon.network/ipfs/@
-https://ipfs-gateway.cloud/ipfs/@
 https://ipfs.eternum.io/ipfs/@
 https://nftstorage.link/ipfs/@
 https://ipfs.anonymize.com/ipfs/@
-https://@.dweb.link
+https://konubinix.eu/ipfs/@
+https://cf-ipfs.com/ipfs/@
+https://fleek.ipfs.io/ipfs/@
+https://4everland.io/ipfs/@
