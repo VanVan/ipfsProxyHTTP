@@ -70,15 +70,19 @@ Otherwise, all you need is a basic web server with at least PHP 5.6.
 
 ## 💡 Features
 
-For everyone hosting this code
+### For everyone hosting this code
 
 * Very fast proxy
 * Avoid breaking the server bandwidth limit
 * No dependency
 * Handle a lot of simultaneous requests
 
-And for ipns.co and getipfs.com
 
+### And for IPNS.co and getIPFS.com
+
+* CORS
+* Origin Isolation (Subdomain Gateway)
+* IPNS and DNSLink
 * Load balancing
 * DDOS protection
 * DNSSEC
